@@ -1,0 +1,49 @@
+/* Style for the event calendar */
+.event-calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.event-calendar th,
+.event-calendar td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.event-calendar th {
+    background-color: #f2f2f2;
+}
+
+.event-calendar td {
+    background-color: #fff;
+}
+
+.event-calendar td:hover {
+    background-color: #f2f2f2;
+}
+
+.event-calendar tbody td {
+    cursor: pointer;
+}
+
+.event-calendar tbody td.events {
+    background-color: #ffd700 !important;
+}
+
+.event-calendar tbody td a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.event-calendar tbody td.events:hover {
+    background-color: #ffcc00;
+}
+
+.month_year{
+    font-size: 25px;
+    background-color: #f0f0f0;
+    font-weight: 500;
+    line-height: 2rem;
+}
